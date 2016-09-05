@@ -1,0 +1,74 @@
+\hypertarget{classhufs_1_1cse_1_1khk_1_1_rank}{}\section{hufs.\+cse.\+khk.\+Rank 클래스 참조}
+\label{classhufs_1_1cse_1_1khk_1_1_rank}\index{hufs.\+cse.\+khk.\+Rank@{hufs.\+cse.\+khk.\+Rank}}
+
+
+\hyperlink{classhufs_1_1cse_1_1khk_1_1_rank}{Rank} \+: User Ranking Class.  
+
+
+\subsection*{정적 Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+static List \hyperlink{classhufs_1_1cse_1_1khk_1_1_rank_ad09a76f413739c959cd57932fa9cf8e9}{sort\+By\+Key} (final Map map)
+\begin{DoxyCompactList}\small\item\em Sort By Key. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+\hyperlink{classhufs_1_1cse_1_1khk_1_1_rank}{Rank} \+: User Ranking Class. 
+
+\begin{DoxyAuthor}{작성자}
+gudrbscse
+\end{DoxyAuthor}
+기존의 랭킹 순위에 새로운 user\+\_\+score 를 정렬하여 새롭게 랭킹 순위를 부여한다. Level 1$\sim$4 에 따른 랭킹 순위가 txt 형식으로 저장되어진다. 
+
+Rank.\+java 파일의 27 번째 라인에서 정의되었습니다.
+
+
+
+\subsection{멤버 함수 문서화}
+\index{hufs\+::cse\+::khk\+::\+Rank@{hufs\+::cse\+::khk\+::\+Rank}!sort\+By\+Key@{sort\+By\+Key}}
+\index{sort\+By\+Key@{sort\+By\+Key}!hufs\+::cse\+::khk\+::\+Rank@{hufs\+::cse\+::khk\+::\+Rank}}
+\subsubsection[{\texorpdfstring{sort\+By\+Key(final Map map)}{sortByKey(final Map map)}}]{\setlength{\rightskip}{0pt plus 5cm}static List hufs.\+cse.\+khk.\+Rank.\+sort\+By\+Key (
+\begin{DoxyParamCaption}
+\item[{final Map}]{map}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classhufs_1_1cse_1_1khk_1_1_rank_ad09a76f413739c959cd57932fa9cf8e9}{}\label{classhufs_1_1cse_1_1khk_1_1_rank_ad09a76f413739c959cd57932fa9cf8e9}
+
+
+Sort By Key. 
+
+
+\begin{DoxyParams}{매개변수}
+{\em map} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{반환값}
+
+\end{DoxyReturn}
+map 의 key 에 따른 증가 형태로 sort 
+
+Rank.\+java 파일의 91 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+91                                                \{
+92             List<String> list = \textcolor{keyword}{new} ArrayList();
+93             list.addAll(map.keySet());
+94              
+95             Collections.sort(list,\textcolor{keyword}{new} Comparator()\{
+96                  
+97                 \textcolor{keyword}{public} \textcolor{keywordtype}{int} compare(Object o1,Object o2)\{
+98                     Object v1 = map.get(o1);
+99                     Object v2 = map.get(o2);
+100                      
+101                     \textcolor{keywordflow}{return} ((Comparable) v1).compareTo(v2);
+102                 \}
+103                  
+104             \});
+105             \textcolor{keywordflow}{return} list;
+106     \}       
+\end{DoxyCode}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/pub/\+Workspace\+\_\+\+S\+E/\+Report3\+\_\+test3/src/hufs/cse/khk/\hyperlink{_rank_8java}{Rank.\+java}\end{DoxyCompactItemize}

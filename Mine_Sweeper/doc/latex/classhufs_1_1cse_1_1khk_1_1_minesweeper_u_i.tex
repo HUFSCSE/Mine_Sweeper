@@ -1,0 +1,849 @@
+\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i}{}\section{hufs.\+cse.\+khk.\+Minesweeper\+UI 클래스 참조}
+\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i}\index{hufs.\+cse.\+khk.\+Minesweeper\+UI@{hufs.\+cse.\+khk.\+Minesweeper\+UI}}
+
+
+\hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper}{Minesweeper} UI.  
+
+
+hufs.\+cse.\+khk.\+Minesweeper\+U\+I에 대한 상속 다이어그램 \+: \begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i}
+\end{center}
+\end{figure}
+\subsection*{클래스}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Customization}
+\begin{DoxyCompactList}\small\item\em Customize Mode. \end{DoxyCompactList}\item 
+class {\bfseries Mouse\+Handler}
+\begin{DoxyCompactList}\small\item\em Mouse Handler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public 멤버 함수}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_aac09dd5162a5dc77642c78c0cc5352f4}{Minesweeper\+UI} (\hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper}{Minesweeper} minesweeper)
+\begin{DoxyCompactList}\small\item\em 생성자 \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9d9ff2e282de36230ad02df0c9b53809}{setmenu} ()
+\begin{DoxyCompactList}\small\item\em set menu \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel} (int level, int setr, int setc, int setm)
+\begin{DoxyCompactList}\small\item\em Set Panel. \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_acf0fc1f12fcce4b62901961c425febb7}{set\+Image\+Icon} ()
+\begin{DoxyCompactList}\small\item\em Set Image\+Icon. \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset} ()
+\begin{DoxyCompactList}\small\item\em Reset. \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a1a12092d57cfb53d87a5c96672a984d9}{component\+Added} (Container\+Event ce)
+\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a1270d3daaaf848642adc88f5f735eb9f}{component\+Removed} (Container\+Event ce)
+\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{action\+Performed} (Action\+Event ae)
+\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a4bb7cb917ff08bb92313768edfb9e976}{win\+\_\+check} ()
+\begin{DoxyCompactList}\small\item\em win check \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a11c77f8dd3a89c96b8a32c64f4e2aef5}{Search\+Mine} (Mouse\+Event e)
+\begin{DoxyCompactList}\small\item\em Search Mine. \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_ac9d8adecf10f5e6f203fc979fe032963}{dfs} (int row, int col)
+\begin{DoxyCompactList}\small\item\em dfs func \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a87c73fb5d1f5cc33c8ca0a7b337849d3}{calculation} ()
+\begin{DoxyCompactList}\small\item\em calculate value \end{DoxyCompactList}\item 
+void \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9649859be1093b220e48f02b27171a9d}{setmine} ()
+\begin{DoxyCompactList}\small\item\em Set Mine. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{상세한 설명}
+\hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper}{Minesweeper} UI. 
+
+\begin{DoxyAuthor}{작성자}
+gudrbscse
+\end{DoxyAuthor}
+지뢰찾기의 G\+UI Class 이다. 
+
+Minesweeper\+U\+I.\+java 파일의 19 번째 라인에서 정의되었습니다.
+
+
+
+\subsection{생성자 \& 소멸자 문서화}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!Minesweeper\+UI@{Minesweeper\+UI}}
+\index{Minesweeper\+UI@{Minesweeper\+UI}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{Minesweeper\+U\+I(\+Minesweeper minesweeper)}{MinesweeperUI(Minesweeper minesweeper)}}]{\setlength{\rightskip}{0pt plus 5cm}hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Minesweeper\+UI (
+\begin{DoxyParamCaption}
+\item[{{\bf Minesweeper}}]{minesweeper}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_aac09dd5162a5dc77642c78c0cc5352f4}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_aac09dd5162a5dc77642c78c0cc5352f4}
+
+
+생성자 
+
+
+\begin{DoxyParams}{매개변수}
+{\em minesweeper} & \\
+\hline
+\end{DoxyParams}
+minesweeper 클래스를 통해서 data 변수들을 받는다. 
+
+Minesweeper\+U\+I.\+java 파일의 40 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+reset(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+set\+Image\+Icon(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmenu(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setpanel(), hufs.\+cse.\+khk.\+Timer.\+stop().
+
+
+\begin{DoxyCode}
+40                                                   \{
+41         super(\textcolor{stringliteral}{"지뢰찾기"});
+42         this.minesweeper = minesweeper;
+43         
+44         setLocation(900, 300);
+45         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_acf0fc1f12fcce4b62901961c425febb7}{setImageIcon}();
+46         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel}(1, 0, 0, 0);
+47         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9d9ff2e282de36230ad02df0c9b53809}{setmenu}();
+48         minesweeper.timer = \textcolor{keyword}{new} Timer(\textcolor{keyword}{this});
+49  
+50         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}.addActionListener(\textcolor{keyword}{new} ActionListener() \{
+51             \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent ae) \{
+52                 \textcolor{keywordflow}{try} \{
+53                     minesweeper.timer.\hyperlink{classhufs_1_1cse_1_1khk_1_1_timer_a5ab9e7bd1e1b1f74604887cd99b27972}{stop}();
+54                     \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel}(minesweeper.minelevel, minesweeper.savedblockr, minesweeper.
+      savedblockc, minesweeper.savednum\_of\_mine);
+55                 \} \textcolor{keywordflow}{catch} (Exception ex) \{
+56                     \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel}(minesweeper.minelevel, minesweeper.savedblockr, minesweeper.
+      savedblockc, minesweeper.savednum\_of\_mine);
+57                 \}
+58                 \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}();
+59             \}
+60         \});
+61         setDefaultCloseOperation(EXIT\_ON\_CLOSE);
+62     \}
+\end{DoxyCode}
+
+
+\subsection{멤버 함수 문서화}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!action\+Performed@{action\+Performed}}
+\index{action\+Performed@{action\+Performed}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{action\+Performed(\+Action\+Event ae)}{actionPerformed(ActionEvent ae)}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed (
+\begin{DoxyParamCaption}
+\item[{Action\+Event}]{ae}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}
+
+
+Minesweeper\+U\+I.\+java 파일의 390 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+calculation(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Search\+Mine(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmine(), hufs.\+cse.\+khk.\+Timer.\+Start(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+win\+\_\+check().
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Minesweeper\+U\+I(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmenu(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmine().
+
+
+\begin{DoxyCode}
+390                                                 \{
+391     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!calculation@{calculation}}
+\index{calculation@{calculation}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{calculation()}{calculation()}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+calculation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a87c73fb5d1f5cc33c8ca0a7b337849d3}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a87c73fb5d1f5cc33c8ca0a7b337849d3}
+
+
+calculate value 
+
+구역 주변에 지뢰가 몇개 있는지 계산하는 함수이다. 0$\sim$8의 값을 가진다. 
+
+Minesweeper\+U\+I.\+java 파일의 560 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed().
+
+
+\begin{DoxyCode}
+560                               \{
+561         \textcolor{keywordtype}{int} row, column;
+562         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < minesweeper.blockr; i++) \{
+563             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < minesweeper.blockc; j++) \{
+564                 \textcolor{keywordtype}{int} value = 0;
+565                 \textcolor{keywordtype}{int} R, C;
+566                 row = i;
+567                 column = j;
+568                 \textcolor{keywordflow}{if} (minesweeper.countmine[row][column] != -1) \{
+569                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < 8; k++) \{
+570                         R = row + minesweeper.r[k];
+571                         C = column + minesweeper.c[k];
+572  
+573                         \textcolor{keywordflow}{if} (R >= 0 && C >= 0 && R < minesweeper.blockr && C < minesweeper.blockc) \{
+574                             \textcolor{keywordflow}{if} (minesweeper.countmine[R][C] == -1) \{
+575                                 value++;
+576                             \}
+577                         \}
+578                     \}
+579                     minesweeper.countmine[row][column] = value;
+580                 \}
+581             \}
+582         \}
+583     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!component\+Added@{component\+Added}}
+\index{component\+Added@{component\+Added}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{component\+Added(\+Container\+Event ce)}{componentAdded(ContainerEvent ce)}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+component\+Added (
+\begin{DoxyParamCaption}
+\item[{Container\+Event}]{ce}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a1a12092d57cfb53d87a5c96672a984d9}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a1a12092d57cfb53d87a5c96672a984d9}
+
+
+Minesweeper\+U\+I.\+java 파일의 384 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+384                                                   \{
+385     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!component\+Removed@{component\+Removed}}
+\index{component\+Removed@{component\+Removed}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{component\+Removed(\+Container\+Event ce)}{componentRemoved(ContainerEvent ce)}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+component\+Removed (
+\begin{DoxyParamCaption}
+\item[{Container\+Event}]{ce}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a1270d3daaaf848642adc88f5f735eb9f}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a1270d3daaaf848642adc88f5f735eb9f}
+
+
+Minesweeper\+U\+I.\+java 파일의 387 번째 라인에서 정의되었습니다.
+
+
+\begin{DoxyCode}
+387                                                     \{
+388     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!dfs@{dfs}}
+\index{dfs@{dfs}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{dfs(int row, int col)}{dfs(int row, int col)}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+dfs (
+\begin{DoxyParamCaption}
+\item[{int}]{row, }
+\item[{int}]{col}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_ac9d8adecf10f5e6f203fc979fe032963}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_ac9d8adecf10f5e6f203fc979fe032963}
+
+
+dfs func 
+
+dfs 알고리즘을 구현한 함수이다. 클릭한 구역에서 이동할 수 있는 구역을 dfs 알고리즘으로 탐색한다. 
+
+Minesweeper\+U\+I.\+java 파일의 534 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Search\+Mine().
+
+
+\begin{DoxyCode}
+534                                       \{
+535          
+536         \textcolor{keywordtype}{int} R, C;
+537         minesweeper.colour[row][col] = \textcolor{charliteral}{'b'};
+538         blocks[row][col].setBackground(Color.GRAY);
+539         blocks[row][col].setIcon(imageicon[minesweeper.countmine[row][col]]);
+540         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 8; i++) \{
+541             R = row + minesweeper.r[i];
+542             C = col + minesweeper.c[i];
+543             \textcolor{keywordflow}{if} (R >= 0 && R < minesweeper.blockr && C >= 0 && C < minesweeper.blockc && minesweeper.colour[
+      R][C] == \textcolor{charliteral}{'w'}) \{
+544                 \textcolor{keywordflow}{if} (minesweeper.countmine[R][C] == 0) \{
+545                     \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_ac9d8adecf10f5e6f203fc979fe032963}{dfs}(R, C);
+546                 \} \textcolor{keywordflow}{else} \{
+547                     blocks[R][C].setIcon(imageicon[minesweeper.countmine[R][C]]);
+548                     minesweeper.colour[R][C] = \textcolor{charliteral}{'b'};
+549                 \}
+550             \}
+551         \}
+552     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!reset@{reset}}
+\index{reset@{reset}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{reset()}{reset()}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}
+
+
+Reset. 
+
+Game 을 Reset 하여 새로운 게임을 하도록 하게 만드는 함수이다. 
+
+Minesweeper\+U\+I.\+java 파일의 374 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Minesweeper\+U\+I(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmenu(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setpanel().
+
+
+\begin{DoxyCode}
+374                         \{
+375         minesweeper.check = \textcolor{keyword}{true};
+376         minesweeper.starttime = \textcolor{keyword}{false};
+377         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < minesweeper.blockr; i++) \{
+378             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < minesweeper.blockc; j++) \{
+379                 minesweeper.colour[i][j] = \textcolor{charliteral}{'w'};
+380             \}
+381         \}
+382     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!Search\+Mine@{Search\+Mine}}
+\index{Search\+Mine@{Search\+Mine}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{Search\+Mine(\+Mouse\+Event e)}{SearchMine(MouseEvent e)}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Search\+Mine (
+\begin{DoxyParamCaption}
+\item[{Mouse\+Event}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a11c77f8dd3a89c96b8a32c64f4e2aef5}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a11c77f8dd3a89c96b8a32c64f4e2aef5}
+
+
+Search Mine. 
+
+지뢰를 찾는 함수이다. dfs 함수를 호출하여 클릭한 곳에서 갈 수 있는 모든 구역을 탐색한다. 만약 클릭한 곳이 지뢰이면, 게임을 종료한다. 
+
+Minesweeper\+U\+I.\+java 파일의 479 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+dfs(), hufs.\+cse.\+khk.\+Timer.\+stop().
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed().
+
+
+\begin{DoxyCode}
+479                                          \{
+480         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < minesweeper.blockr; i++) \{
+481             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < minesweeper.blockc; j++) \{
+482  
+483                 \textcolor{keywordflow}{if} (e.getSource() == blocks[i][j]) \{
+484                     \textcolor{keywordflow}{if} (e.isMetaDown() == \textcolor{keyword}{false}) \{
+485                         \textcolor{keywordflow}{if} (blocks[i][j].getIcon() == imageicon[10]) \{
+486                             \textcolor{keywordflow}{if} (minesweeper.detectedmine < minesweeper.num\_of\_mine) \{
+487                                 minesweeper.detectedmine++;
+488                             \}
+489                             mine\_count.setText(\textcolor{stringliteral}{""} + minesweeper.detectedmine);
+490                         \}
+491  
+492                         \textcolor{keywordflow}{if} (minesweeper.countmine[i][j] == -1) \{
+493                             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < minesweeper.blockr; k++) \{
+494                                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < minesweeper.blockc; l++) \{
+495                                     \textcolor{keywordflow}{if} (minesweeper.countmine[k][l] == -1) \{
+496  
+497                                         blocks[k][l].setIcon(imageicon[9]);
+498                                         blocks[k][l].removeMouseListener(minesweeper.mh);
+499                                     \}
+500                                     blocks[k][l].removeMouseListener(minesweeper.mh);
+501                                 \}
+502                             \}
+503                             minesweeper.timer.\hyperlink{classhufs_1_1cse_1_1khk_1_1_timer_a5ab9e7bd1e1b1f74604887cd99b27972}{stop}();
+504                             JOptionPane.showMessageDialog(null, \textcolor{stringliteral}{"Game Over"});
+505                         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (minesweeper.countmine[i][j] == 0) \{
+506                             \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_ac9d8adecf10f5e6f203fc979fe032963}{dfs}(i, j);
+507                         \} \textcolor{keywordflow}{else} \{
+508                             blocks[i][j].setIcon(imageicon[minesweeper.countmine[i][j]]);
+509                             minesweeper.colour[i][j] = \textcolor{charliteral}{'b'};
+510                             \textcolor{keywordflow}{break};
+511                         \}
+512                     \} \textcolor{keywordflow}{else} \{
+513                         \textcolor{keywordflow}{if} (minesweeper.detectedmine != 0) \{
+514                             \textcolor{keywordflow}{if} (blocks[i][j].getIcon() == null) \{
+515                                 minesweeper.detectedmine--;
+516                                 blocks[i][j].setIcon(imageicon[10]);
+517                             \}
+518                             mine\_count.setText(\textcolor{stringliteral}{""} + minesweeper.detectedmine);
+519                         \}
+520  
+521                     \}
+522                 \}
+523  
+524             \}
+525         \}
+526  
+527     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!set\+Image\+Icon@{set\+Image\+Icon}}
+\index{set\+Image\+Icon@{set\+Image\+Icon}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{set\+Image\+Icon()}{setImageIcon()}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+set\+Image\+Icon (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_acf0fc1f12fcce4b62901961c425febb7}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_acf0fc1f12fcce4b62901961c425febb7}
+
+
+Set Image\+Icon. 
+
+imageicon\mbox{[}0$\sim$8\mbox{]} 은 null, 1$\sim$8 의 숫자 이미지가 들어간다 imageicon 9 는 지뢰 이미지가 들어간다. imageicon 10 은 flag 이미지가 들어간다. 
+
+Minesweeper\+U\+I.\+java 파일의 358 번째 라인에서 정의되었습니다.
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Minesweeper\+U\+I().
+
+
+\begin{DoxyCode}
+358                                \{
+359         String name;
+360  
+361         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i <= 8; i++) \{
+362             name = \textcolor{stringliteral}{"/resources/"} + i + \textcolor{stringliteral}{".gif"};
+363             imageicon[i] = \textcolor{keyword}{new} ImageIcon(getClass().getResource(\textcolor{stringliteral}{"/resources/"} + i + \textcolor{stringliteral}{".gif"}));
+364         \}
+365         imageicon[9] = \textcolor{keyword}{new} ImageIcon(getClass().getResource(\textcolor{stringliteral}{"/resources/mine.gif"}));
+366         imageicon[10] = \textcolor{keyword}{new} ImageIcon(getClass().getResource(\textcolor{stringliteral}{"/resources/flag.gif"}));
+367     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!setmenu@{setmenu}}
+\index{setmenu@{setmenu}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{setmenu()}{setmenu()}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmenu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9d9ff2e282de36230ad02df0c9b53809}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9d9ff2e282de36230ad02df0c9b53809}
+
+
+set menu 
+
+menu 를 Set 해준다. Level 1 \+: Novice Level 2 \+: Intermediate Level 3 \+: Expert Level 4 \+: Customize 
+
+Minesweeper\+U\+I.\+java 파일의 73 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+reset(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setpanel(), hufs.\+cse.\+khk.\+Timer.\+stop().
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Minesweeper\+U\+I().
+
+
+\begin{DoxyCode}
+73                           \{
+74         JMenuBar bar = \textcolor{keyword}{new} JMenuBar();
+75  
+76         JMenu game = \textcolor{keyword}{new} JMenu(\textcolor{stringliteral}{"GAME"});
+77  
+78         JMenuItem menuitem = \textcolor{keyword}{new} JMenuItem(\textcolor{stringliteral}{"new game"});
+79         \textcolor{keyword}{final} JCheckBoxMenuItem beginner = \textcolor{keyword}{new} JCheckBoxMenuItem(\textcolor{stringliteral}{"Novice(Level 1)"});
+80         \textcolor{keyword}{final} JCheckBoxMenuItem intermediate = \textcolor{keyword}{new} JCheckBoxMenuItem(\textcolor{stringliteral}{"Intermediate(Level 2)"});
+81         \textcolor{keyword}{final} JCheckBoxMenuItem expart = \textcolor{keyword}{new} JCheckBoxMenuItem(\textcolor{stringliteral}{"Expert(Level 3)"});
+82         \textcolor{keyword}{final} JCheckBoxMenuItem custom = \textcolor{keyword}{new} JCheckBoxMenuItem(\textcolor{stringliteral}{"Customize(Level 4)"});
+83         \textcolor{keyword}{final} JMenuItem exit = \textcolor{keyword}{new} JMenuItem(\textcolor{stringliteral}{"Exit"});
+84         \textcolor{keyword}{final} JMenu help = \textcolor{keyword}{new} JMenu(\textcolor{stringliteral}{"Help"});
+85         \textcolor{keyword}{final} JMenuItem helpitem = \textcolor{keyword}{new} JMenuItem(\textcolor{stringliteral}{"Help"});
+86         
+87         \textcolor{keyword}{final} JMenuItem rank = \textcolor{keyword}{new} JMenuItem(\textcolor{stringliteral}{"Rank"});
+88  
+89         ButtonGroup status = \textcolor{keyword}{new} ButtonGroup();
+90  
+91         menuitem.addActionListener(
+92                 \textcolor{keyword}{new} ActionListener() \{
+93                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+94                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel}(1, 0, 0, 0);
+95                     \}
+96                 \}
+97         );
+98  
+99         beginner.addActionListener(
+100                 \textcolor{keyword}{new} ActionListener() \{
+101                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+102                         \textcolor{keywordflow}{try} \{
+103                             minesweeper.timer.\hyperlink{classhufs_1_1cse_1_1khk_1_1_timer_a5ab9e7bd1e1b1f74604887cd99b27972}{stop}();
+104                         \} \textcolor{keywordflow}{catch} (Exception ex) \{                        
+105                         \}
+106                         minepanel.removeAll();
+107                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}();
+108                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel}(1, 0, 0, 0);
+109                         minepanel.revalidate();
+110                         minepanel.repaint();
+111                         beginner.setSelected(\textcolor{keyword}{true});
+112                         minesweeper.minelevel = 1;
+113                     \}
+114                 \}
+115         );
+116         intermediate.addActionListener(
+117                 \textcolor{keyword}{new} ActionListener() \{
+118                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+119                         \textcolor{keywordflow}{try} \{
+120                             minesweeper.timer.\hyperlink{classhufs_1_1cse_1_1khk_1_1_timer_a5ab9e7bd1e1b1f74604887cd99b27972}{stop}();
+121                         \} \textcolor{keywordflow}{catch} (Exception ex) \{                        
+122                         \}
+123                         minepanel.removeAll();
+124                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}();
+125                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel}(2, 0, 0, 0);
+126                         minepanel.revalidate();
+127                         minepanel.repaint();
+128                         intermediate.setSelected(\textcolor{keyword}{true});
+129                         minesweeper.minelevel = 2;
+130                     \}
+131                 \}
+132         );
+133         expart.addActionListener(
+134                 \textcolor{keyword}{new} ActionListener() \{
+135                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+136                         \textcolor{keywordflow}{try} \{
+137                             minesweeper.timer.\hyperlink{classhufs_1_1cse_1_1khk_1_1_timer_a5ab9e7bd1e1b1f74604887cd99b27972}{stop}();
+138                         \} \textcolor{keywordflow}{catch} (Exception ex) \{                        
+139                         \}
+140                         minepanel.removeAll();
+141                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}();
+142                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{setpanel}(3, 0, 0, 0);
+143                         minepanel.revalidate();
+144                         minepanel.repaint();
+145                         expart.setSelected(\textcolor{keyword}{true});
+146                         minesweeper.minelevel = 3;
+147                     \}
+148                 \}
+149         );
+150  
+151         custom.addActionListener(
+152                 \textcolor{keyword}{new} ActionListener() \{
+153                     \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+154                         \textcolor{keywordflow}{try} \{
+155                             minesweeper.timer.\hyperlink{classhufs_1_1cse_1_1khk_1_1_timer_a5ab9e7bd1e1b1f74604887cd99b27972}{stop}();
+156                         \} \textcolor{keywordflow}{catch} (Exception ex) \{                        
+157                         \}
+158                         Customization cus = \textcolor{keyword}{new} Customization();
+159                         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}();
+160                         minepanel.revalidate();
+161                         minepanel.repaint();
+162  
+163                         custom.setSelected(\textcolor{keyword}{true});
+164                         minesweeper.minelevel = 4;
+165                     \}
+166                 \}
+167         );
+168  
+169         exit.addActionListener(\textcolor{keyword}{new} ActionListener() \{
+170             \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+171                 System.exit(0);
+172             \}
+173         \});
+174         
+175         
+176         rank.addActionListener(\textcolor{keyword}{new} ActionListener() \{
+177             \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+178                 \textcolor{keyword}{final} String[] nums = \{ \textcolor{stringliteral}{"1"}, \textcolor{stringliteral}{"2"}, \textcolor{stringliteral}{"3"},\textcolor{stringliteral}{"4"} \};
+179                 JFrame frame = \textcolor{keyword}{new} JFrame(\textcolor{stringliteral}{"Select Level"});
+180                 String selectedlevel = (String) JOptionPane.showInputDialog(frame, 
+181                         null,
+182                     \textcolor{stringliteral}{"Select Level"},
+183                     JOptionPane.QUESTION\_MESSAGE, 
+184                     null, 
+185                     nums, 
+186                     nums[0]);
+187                 
+188                 File file = \textcolor{keyword}{new} File(\textcolor{stringliteral}{"Rank"}+selectedlevel+\textcolor{stringliteral}{".txt"});
+189                 \textcolor{keywordtype}{long} [] score = \textcolor{keyword}{new} \textcolor{keywordtype}{long} [100];
+190                 String [] name = \textcolor{keyword}{new} String[100];
+191                 \textcolor{keywordtype}{int} i=0;
+192                 \textcolor{keywordflow}{try} \{
+193                     Scanner input = \textcolor{keyword}{new} Scanner(file);
+194                     \textcolor{keywordflow}{while}(input.hasNext())
+195                     \{
+196                         name[i] = input.next();
+197                         score[i] = input.nextInt();
+198                         i++;
+199                     \}
+200                     input.close();
+201                 \}
+202                 \textcolor{keywordflow}{catch}(Exception e1)
+203                 \{
+204                     e1.printStackTrace();
+205                 \}
+206                 JLabel labels[] = \textcolor{keyword}{new} JLabel[5];
+207                 \textcolor{keywordflow}{for} ( i =  0; i < 5; i++) \{
+208                    labels[i] = \textcolor{keyword}{new} JLabel();
+209                    labels[i].setText(i+1+\textcolor{stringliteral}{"등  : "}+name[i]+\textcolor{stringliteral}{"  점수 : "}+score[i]);
+210                 \}
+211                 JOptionPane pane = \textcolor{keyword}{new} JOptionPane( labels, 
+212                         JOptionPane.PLAIN\_MESSAGE);
+213                 pane.createDialog(null, \textcolor{stringliteral}{"Level "}+selectedlevel+\textcolor{stringliteral}{" Rank Board"}).setVisible(\textcolor{keyword}{true});
+214                 
+215             \}
+216         \});
+217  
+218         helpitem.addActionListener(\textcolor{keyword}{new} ActionListener() \{
+219             \textcolor{keyword}{public} \textcolor{keywordtype}{void} \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a896a8e57a116a0b4b43fb88b575ab5b8}{actionPerformed}(ActionEvent e) \{
+220                 JOptionPane.showMessageDialog(null, \textcolor{stringliteral}{"khk : 010-1234-5678"});
+221  
+222             \}
+223         \});
+224  
+225         setJMenuBar(bar);
+226  
+227         status.add(beginner);
+228         status.add(intermediate);
+229         status.add(expart);
+230         status.add(custom);
+231  
+232         game.add(menuitem);
+233         game.addSeparator();
+234         game.add(beginner);
+235         game.add(intermediate);
+236         game.add(expart);
+237         game.add(custom);
+238         game.addSeparator();
+239 
+240         game.add(rank);
+241         
+242         game.add(exit);
+243         
+244         
+245         help.add(helpitem);
+246  
+247         bar.add(game);
+248         bar.add(help);
+249  
+250         show();
+251     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!setmine@{setmine}}
+\index{setmine@{setmine}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{setmine()}{setmine()}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmine (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9649859be1093b220e48f02b27171a9d}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9649859be1093b220e48f02b27171a9d}
+
+
+Set Mine. 
+
+Mine 을 Random 으로 Set 해주는 함수이다. 
+
+Minesweeper\+U\+I.\+java 파일의 591 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setpanel().
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed().
+
+
+\begin{DoxyCode}
+591                           \{
+592         \textcolor{keywordtype}{int} row = 0, col = 0;
+593         Boolean[][] flag = \textcolor{keyword}{new} Boolean[minesweeper.blockr][minesweeper.blockc];
+594  
+595         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < minesweeper.blockr; i++) \{
+596             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < minesweeper.blockc; j++) \{
+597                 flag[i][j] = \textcolor{keyword}{true};
+598                 minesweeper.countmine[i][j] = 0;
+599             \}
+600         \}
+601  
+602         flag[minesweeper.var1][minesweeper.var2] = \textcolor{keyword}{false};
+603         minesweeper.colour[minesweeper.var1][minesweeper.var2] = \textcolor{charliteral}{'b'};
+604  
+605         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < minesweeper.num\_of\_mine; i++) \{
+606             row = ranr.nextInt(minesweeper.blockr);
+607             col = ranc.nextInt(minesweeper.blockc);
+608  
+609             \textcolor{keywordflow}{if} (flag[row][col] == \textcolor{keyword}{true}) \{
+610  
+611                 minesweeper.countmine[row][col] = -1;
+612                 minesweeper.colour[row][col] = \textcolor{charliteral}{'b'};
+613                 flag[row][col] = \textcolor{keyword}{false};
+614             \} \textcolor{keywordflow}{else} \{
+615                 i--;
+616             \}
+617         \}
+618     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!setpanel@{setpanel}}
+\index{setpanel@{setpanel}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{setpanel(int level, int setr, int setc, int setm)}{setpanel(int level, int setr, int setc, int setm)}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setpanel (
+\begin{DoxyParamCaption}
+\item[{int}]{level, }
+\item[{int}]{setr, }
+\item[{int}]{setc, }
+\item[{int}]{setm}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a9a871b3969d0f0c00cf420902d09cc18}
+
+
+Set Panel. 
+
+Level 에 따른 Panel 을 Set 해주게 하는 함수. 
+
+Minesweeper\+U\+I.\+java 파일의 259 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+reset().
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+Minesweeper\+U\+I(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmenu(), hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+setmine().
+
+
+\begin{DoxyCode}
+259                                                                   \{
+260         \textcolor{keywordflow}{if} (level == 1) \{
+261             minesweeper.fw = 200;
+262             minesweeper.fh = 300;
+263             minesweeper.blockr = 10;
+264             minesweeper. blockc = 10;
+265             minesweeper.num\_of\_mine = 10;
+266         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (level == 2) \{
+267             minesweeper.fw = 320;
+268             minesweeper.fh = 416;
+269             minesweeper.blockr = 16;
+270             minesweeper.blockc = 16;
+271             minesweeper. num\_of\_mine = 70;
+272         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (level == 3) \{
+273             minesweeper.fw = 400;
+274             minesweeper.fh = 520;
+275             minesweeper.blockr = 20;
+276             minesweeper.blockc = 20;
+277             minesweeper.num\_of\_mine = 150;
+278         \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (level == 4) \{
+279             minesweeper.fw = (20 * setc);
+280             minesweeper.fh = (24 * setr);
+281             minesweeper.blockr = setr;
+282             minesweeper.blockc = setc;
+283             minesweeper.num\_of\_mine = setm;
+284         \}
+285  
+286         minesweeper.savedblockr = minesweeper.blockr;
+287         minesweeper.savedblockc = minesweeper.blockc;
+288         minesweeper.savednum\_of\_mine = minesweeper.num\_of\_mine;
+289  
+290         setSize(minesweeper.fw, minesweeper.fh);
+291         setResizable(\textcolor{keyword}{false});
+292         minesweeper.detectedmine = minesweeper.num\_of\_mine;
+293         minesweeper.p = this.getLocation();
+294  
+295         blocks = \textcolor{keyword}{new} JButton[minesweeper.blockr][minesweeper.blockc];
+296         minesweeper.countmine = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[minesweeper.blockr][minesweeper.blockc];
+297         minesweeper.colour = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[minesweeper.blockr][minesweeper.blockc];
+298         minesweeper.mh = \textcolor{keyword}{new} MouseHandler();
+299  
+300         getContentPane().removeAll();
+301         minepanel.removeAll();
+302  
+303         mine\_count = \textcolor{keyword}{new} JTextField(\textcolor{stringliteral}{""} + minesweeper.num\_of\_mine, 3);
+304         mine\_count.setEditable(\textcolor{keyword}{false});
+305         mine\_count.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"DigtalFont.TTF"}, Font.BOLD, 25));
+306         mine\_count.setBackground(Color.BLACK);
+307         mine\_count.setForeground(Color.RED);
+308         mine\_count.setBorder(BorderFactory.createLoweredBevelBorder());
+309         time\_count = \textcolor{keyword}{new} JTextField(\textcolor{stringliteral}{"000"}, 3);
+310         time\_count.setEditable(\textcolor{keyword}{false});
+311         time\_count.setFont(\textcolor{keyword}{new} Font(\textcolor{stringliteral}{"DigtalFont.TTF"}, Font.BOLD, 25));
+312         time\_count.setBackground(Color.BLACK);
+313         time\_count.setForeground(Color.RED);
+314         time\_count.setBorder(BorderFactory.createLoweredBevelBorder());
+315         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}.setBorder(BorderFactory.createLoweredBevelBorder());
+316  
+317         panelmt.removeAll();
+318         panelmt.setLayout(\textcolor{keyword}{new} BorderLayout());
+319         panelmt.add(mine\_count, BorderLayout.WEST);
+320         panelmt.add(\hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}, BorderLayout.CENTER);
+321         panelmt.add(time\_count, BorderLayout.EAST);
+322         panelmt.setBorder(BorderFactory.createLoweredBevelBorder());
+323  
+324         minepanel.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createEmptyBorder(10, 10, 10, 
+      10), BorderFactory.createLoweredBevelBorder()));
+325         minepanel.setPreferredSize(\textcolor{keyword}{new} Dimension(minesweeper.fw, minesweeper.fh));
+326         minepanel.setLayout(\textcolor{keyword}{new} GridLayout(0, minesweeper.blockc));
+327         minepanel.addContainerListener(\textcolor{keyword}{this});
+328  
+329         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < minesweeper.blockr; i++) \{
+330             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < minesweeper.blockc; j++) \{
+331                 blocks[i][j] = \textcolor{keyword}{new} JButton(\textcolor{stringliteral}{""});
+332                 blocks[i][j].addMouseListener(minesweeper.mh);
+333                 minepanel.add(blocks[i][j]);
+334             \}
+335         \}
+336         \hyperlink{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a137388c25def2c90fe13e34d6234207d}{reset}();
+337  
+338         minepanel.revalidate();
+339         minepanel.repaint();
+340  
+341         getContentPane().setLayout(\textcolor{keyword}{new} BorderLayout());
+342         getContentPane().addContainerListener(\textcolor{keyword}{this});
+343         getContentPane().repaint();
+344         getContentPane().add(minepanel, BorderLayout.CENTER);
+345         getContentPane().add(panelmt, BorderLayout.NORTH);
+346         
+347         setVisible(\textcolor{keyword}{true});
+348     \}
+\end{DoxyCode}
+\index{hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}!win\+\_\+check@{win\+\_\+check}}
+\index{win\+\_\+check@{win\+\_\+check}!hufs\+::cse\+::khk\+::\+Minesweeper\+UI@{hufs\+::cse\+::khk\+::\+Minesweeper\+UI}}
+\subsubsection[{\texorpdfstring{win\+\_\+check()}{win_check()}}]{\setlength{\rightskip}{0pt plus 5cm}void hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+win\+\_\+check (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a4bb7cb917ff08bb92313768edfb9e976}{}\label{classhufs_1_1cse_1_1khk_1_1_minesweeper_u_i_a4bb7cb917ff08bb92313768edfb9e976}
+
+
+win check 
+
+Game 에서 더이상 남은 지뢰가 없으면 User 가 이겼다. User 이름을 받아서 Ranking 에 순위를 적용한다. 
+
+Minesweeper\+U\+I.\+java 파일의 434 번째 라인에서 정의되었습니다.
+
+
+
+다음을 참조함 \+:  hufs.\+cse.\+khk.\+Timer.\+stop().
+
+
+
+다음에 의해서 참조됨 \+:  hufs.\+cse.\+khk.\+Minesweeper\+U\+I.\+action\+Performed().
+
+
+\begin{DoxyCode}
+434                             \{
+435         \textcolor{keywordtype}{int} q = 0;
+436         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < minesweeper.blockr; k++) \{
+437             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < minesweeper.blockc; l++) \{
+438                 \textcolor{keywordflow}{if} (minesweeper.colour[k][l] == \textcolor{charliteral}{'w'}) \{
+439                     q = 1;
+440                 \}
+441             \}
+442         \}
+443  
+444         \textcolor{keywordflow}{if} (q == 0) \{
+445             \textcolor{keywordtype}{long} temp\_time = 0;
+446             \textcolor{keywordflow}{try} \{
+447                 temp\_time = minesweeper.timer.\hyperlink{classhufs_1_1cse_1_1khk_1_1_timer_a5ab9e7bd1e1b1f74604887cd99b27972}{stop}();
+448             \} \textcolor{keywordflow}{catch} (Exception ex) \{                        
+449             \}
+450             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < minesweeper.blockr; k++) \{
+451                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < minesweeper.blockc; l++) \{
+452                     blocks[k][l].removeMouseListener(minesweeper.mh);
+453                 \}
+454             \}
+455             JTextField name = \textcolor{keyword}{new} JTextField();
+456             Object[] message = \{\textcolor{stringliteral}{"name"}, name\};
+457 
+458             JOptionPane pane = \textcolor{keyword}{new} JOptionPane( message, 
+459                     JOptionPane.PLAIN\_MESSAGE, 
+460                     JOptionPane.OK\_CANCEL\_OPTION);
+461             pane.createDialog(null, \textcolor{stringliteral}{"Input Name"}).setVisible(\textcolor{keyword}{true});
+462             
+463             \textcolor{keywordflow}{try} \{
+464                 ranking.sort(name.getText().toString(),temp\_time,minesweeper.minelevel);
+465             \} \textcolor{keywordflow}{catch} (FileNotFoundException e) \{
+466                 e.printStackTrace();
+467             \}
+468 
+469         \}
+470     \}   
+\end{DoxyCode}
+
+
+이 클래스에 대한 문서화 페이지는 다음의 파일로부터 생성되었습니다.\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/pub/\+Workspace\+\_\+\+S\+E/\+Report3\+\_\+test3/src/hufs/cse/khk/\hyperlink{_minesweeper_u_i_8java}{Minesweeper\+U\+I.\+java}\end{DoxyCompactItemize}
